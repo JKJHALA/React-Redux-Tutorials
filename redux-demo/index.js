@@ -11,7 +11,7 @@ const BUY_ICECREAM = 'BUY_ICECREAM'
 function buyCake () {
   return {
     type: BUY_CAKE,
-    info: 'First redux action'
+    info: 'First redux action' 
   }
 }
 
