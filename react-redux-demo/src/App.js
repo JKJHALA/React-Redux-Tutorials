@@ -4,12 +4,14 @@ import logo from './logo.svg';
 import store from './redux/store'
 import './App.css';
 import CakeContainer from './components/CakeContainer';
+import IcecreamContainer from './components/IcecreamContainer'
 
 function App() {
   return (
     <Provider store={store}>
     <div className="App">
     <CakeContainer/>
+    <IcecreamContainer/>
     </div>
     </Provider>
   );
